@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bg3.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "background";
 
 /**
  * Project list
@@ -31,28 +31,29 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Game development using ReactJs",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    "Considering Rat in a maze game to showcase my skills in front-end development and algorithmic problem-solving. This project involved implementing backtracking algorithms. By combining these elements, I demonstrated proficiency in creating web applications " ,
+
+
   },
   {
-    title: "Web Development for Beginners",
+    title: "Local Adaptive Image Equalization",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+     " The main aim was to improve image quality using techniques like CLAHE. creating a user-friendly interface with HTML and CSS for easy image uploads and displaying results, while Python handled the backend resulting in clearer and detailed images." ,
+  
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from Microsoft's resume workshop and deployed to GitHub pages.I created a digital version of my resume using HTML and CSS, showcasing my web development skills  The resume features a clean and optimal viewing experience on various devices.",
+    url: "https://github.com/Archanaa-31/ResumeArchana",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Digital ID's Using Blockchain",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Digital IDs using blockchain technology offer a robust, secure approach to identity management. By leveraging the strengths of blockchain digital IDs can transform the way identities are verified and managed across various sectors..",
+ 
   },
 ];
 
@@ -64,7 +65,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", paddingTop: "0%" }}
             alt={imageAltText}
           />
         </div>
@@ -83,4 +84,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Portfolio;
